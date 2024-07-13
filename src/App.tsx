@@ -1,9 +1,9 @@
-function App() {
+import Header from './component/header';
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <Header />
     </div>
   );
 }
-
-export default App;
